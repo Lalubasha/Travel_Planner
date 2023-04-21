@@ -7,7 +7,7 @@ const Header = () => {
     return( 
     <header className="header" id="header">
     <nav className="nav container">
-      <Link to="/" className="nav__logo">TraV<span>pln</span></Link>
+      <Link to="/" className="nav__logo">TraV<span>plN</span></Link>
 
       <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
         <ul className="nav__list">
