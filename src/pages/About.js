@@ -24,17 +24,12 @@ const About = () =>{
             <div class="about__data">
               <h3 class="about__data-title">2008</h3>
               <p class="about__data-description">
-                Consulting represents success at realizing the company is going in
-                the wrong direction. The only time the company fails is when it is
-                not possibleto do a turnaround anymore. We help companies pivot
-                into more profitable directions where they can expand and grow. It
-                is inevitable that companieswill end up making a few mistakes; we
-                help them correct these mistakes.
+               consulting represents success at realizing that a trip itinerary is not meeting the client's needs. At times, it is inevitable that travel plans may not turn out as expected; we help our clients pivot into more enjoyable and profitable travel experiences. Our team helps identify and correct any mistakes in the itinerary, ensuring that our clients have a seamless and memorable trip. We work towards ensuring that our clients have an enriching travel experience and are able to explore new and exciting destinations. At the end of the day, our goal is to ensure our clients' satisfaction and help them create unforgettable memories.
               </p>
               <p class="about__data-description">
                 Consulting represents success at realizing the company is going in
                 the wrong direction. The only time the company fails is when it is
-                not possible to do a turnaround anymore. We help companies
+                not possible to do a turnaround anymore. We help companies!
               </p>
             </div>
           </div>
