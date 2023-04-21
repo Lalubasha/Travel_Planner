@@ -12,7 +12,7 @@ const Header = () => {
       <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
         <ul className="nav__list">
           <li className="nav__item">
-            <Link a="/home" className="nav__link active">Home</Link>
+            <Link to="/" className="nav__link active">Home</Link>
           </li>
           <li className="nav__item">
             <Link to="/about" className="nav__link">About</Link>

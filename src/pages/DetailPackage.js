@@ -5,14 +5,14 @@ import {useState, useEffect} from 'react';
 
 const DetailPackage = () =>{
         const [selectedImage, setSelectedImage] = useState('../media/detail-img.jpg');
-        const DetailPackage = () => {
+        
             useEffect(() => {
                 window.scrollTo(0,0);
             });
-        }
+        
     return <>
-        <Header />
-        <main class="container" style={{marginTop: "120px"}}>
+      <Header />
+      <main class="container" style={{marginTop: "120px"}}>
       <section class="detail">
         <div class="detail__card card">
           <img
@@ -93,7 +93,7 @@ const DetailPackage = () =>{
         </div>
       </section>
     </main>
-        <Footer />
+    <Footer />
     </>
 }
 

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 const TourPackage = () =>{
-    const TourPackage = () => {
+    
         useEffect(() => {
             window.scrollTo(0,0);
         });
-    }
+         
     return <>
         <Header />
         <main class="main" id="main">
@@ -66,7 +66,7 @@ const TourPackage = () =>{
                 <h5 class="tour__data-title">Central Park</h5>
                 <span class="tour__data-subtitle">London</span>
                 </div>
-                <a href="#" class="tour__link"></a>
+                <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             </div>
         </section>
