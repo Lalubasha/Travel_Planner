@@ -18,8 +18,7 @@ const HomePage = () =>{
     <main class="main" id="main">
       <section class="section hero" style={{backgroundImage: 'url(./media/bg-image.png)'}}>
         <h1 class="hero__title">
-          Explore the World <br />
-          just one Click
+        Discover the wonders of the world <br /> with just one click!
         </h1>
 
         <button onclick={getStarted} class="button button-hero">Get Started</button>
@@ -32,24 +31,24 @@ const HomePage = () =>{
           <div class="tour__card">
             <img src="./media/img-1.jpg" alt="" class="tour__card-img" />
             <div class="tour__data">
-              <h5 class="tour__data-title">Opera House</h5>
-              <span class="tour__data-subtitle">Sidney</span>
+              <h5 class="tour__data-title">Munnar</h5>
+              <span class="tour__data-subtitle">Kerala</span>
             </div>
             <Link to="/tour-package/asd" class="tour__link"></Link>
           </div>
           <div class="tour__card">
             <img src="./media/img-2.jpg" alt="" class="tour__card-img" />
             <div class="tour__data">
-              <h5 class="tour__data-title">Eiffel Tower</h5>
-              <span class="tour__data-subtitle">Paris</span>
+              <h5 class="tour__data-title">Coorg</h5>
+              <span class="tour__data-subtitle">Karnataka</span>
             </div>
             <Link to="/tour-package/asd" class="tour__link"></Link>
           </div>
           <div class="tour__card">
             <img src="./media/img-3.jpg" alt="" class="tour__card-img" />
             <div class="tour__data">
-              <h5 class="tour__data-title">Colosseum</h5>
-              <span class="tour__data-subtitle">Rome</span>
+              <h5 class="tour__data-title">Darjeeling</h5>
+              <span class="tour__data-subtitle">West Bengal</span>
             </div>
             <Link to="/tour-package/asd" class="tour__link"></Link>
           </div>

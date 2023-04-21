@@ -23,48 +23,48 @@ const TourPackage = () =>{
             <div class="tour__card">
                 <img src="./media/img-1.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Opera House</h5>
-                <span class="tour__data-subtitle">Sidney</span>
+                <h5 class="tour__data-title">Munnar</h5>
+                <span class="tour__data-subtitle">Kerala</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             <div class="tour__card">
                 <img src="./media/img-2.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Eiffel Tower</h5>
-                <span class="tour__data-subtitle">Paris</span>
+                <h5 class="tour__data-title">Coorg</h5>
+                <span class="tour__data-subtitle">Karnataka</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             <div class="tour__card">
                 <img src="./media/img-3.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Eiffel Tower</h5>
-                <span class="tour__data-subtitle">Paris</span>
+                <h5 class="tour__data-title">Manali</h5>
+                <span class="tour__data-subtitle">Himachal Pradesh</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             <div class="tour__card">
                 <img src="./media/img-4.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Golden Bridge</h5>
-                <span class="tour__data-subtitle">New York</span>
+                <h5 class="tour__data-title">Darjeeling</h5>
+                <span class="tour__data-subtitle">West Bengal</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             <div class="tour__card">
                 <img src="./media/img-5.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Big Mosque</h5>
-                <span class="tour__data-subtitle">India</span>
+                <h5 class="tour__data-title">Khajjiar</h5>
+                <span class="tour__data-subtitle">Himachal Pradesh</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
             <div class="tour__card">
                 <img src="./media/img-6.jpg" alt="" class="tour__card-img" />
                 <div class="tour__data">
-                <h5 class="tour__data-title">Central Park</h5>
-                <span class="tour__data-subtitle">London</span>
+                <h5 class="tour__data-title">Mawlynnong</h5>
+                <span class="tour__data-subtitle">Meghalaya</span>
                 </div>
                 <Link to="/tour-package/asd" class="tour__link"></Link>
             </div>
