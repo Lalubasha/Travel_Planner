@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { useEffect } from "react";
 const About = () =>{
     const TourPackage = () => {
-        useEffect(() => {
+           useEffect(() => {
             window.scrollTo(0,0);
         });
     }
