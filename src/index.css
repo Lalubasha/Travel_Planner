@@ -306,6 +306,115 @@ body {
 }
 /* end */
 
+/* Contact Hero Section */
+
+.contact-hero {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero__title {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px #000;
+}
+
+/* Contact Form */
+
+.contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.contact__form {
+  flex-basis: 60%;
+  margin-right: 2rem;
+}
+
+.contact__form-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact__form-row {
+  margin-bottom: 2rem;
+}
+
+.contact__form label {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.contact__form input,
+.contact__form textarea {
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 2px solid #ccc;
+  width: 100%;
+}
+
+.contact__form textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.contact__form-submit {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.6rem;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact__form-submit:hover {
+  background-color: #333;
+}
+
+/* Contact Info */
+
+.contact__info {
+  flex-basis: 35%;
+}
+
+.contact__info-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact__info-description {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.contact__info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact__info-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+}
+
+.contact__info-item i {
+  color: #000;
+  font-size: 1.8rem;
+}
+
+
 /* detail style */
 .card {
   background-color: #fff;
